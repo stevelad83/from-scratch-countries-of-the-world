@@ -1,3 +1,11 @@
+##Plan
+
+1. Make fetchCountries func in services
+2. Make useEffect func custom hook to grab and display countries and flags
+3. Make Main component to call useEffect to display countries and flags
+4. Refactor useEffect hooks into separate component
+5. Add filter/search functionality (Component?)
+
 Learning Objectives
 Use useEffect hook with a dependency array to retrieve data when a component first mounts
 Use useState to manage component state
