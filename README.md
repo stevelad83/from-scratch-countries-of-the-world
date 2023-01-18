@@ -1,3 +1,5 @@
+#wireframe ![](./wireframe.png)
+
 ##Plan
 
 1. Make fetchCountries func in services
