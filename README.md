@@ -1,6 +1,6 @@
 ##wireframe ![](./wireframe.png)
 
-##Plan
+##Plans
 
 1. Make fetchCountries func in services
 2. Make useEffect func custom hook to grab and display countries and flags
