@@ -1,9 +1,8 @@
 import './App.css';
-import { fetchCountries } from './services/countries.js';
+import Main from './components/Main.js';
 
 function App() {
-  fetchCountries();
-  return <div className="App">;</div>;
+  return <Main />;
 }
 
 export default App;
