@@ -1,5 +1,5 @@
 import './App.css';
-import Main from './components/Main.js';
+import Main from './components/main/Main.js';
 
 function App() {
   return <Main />;

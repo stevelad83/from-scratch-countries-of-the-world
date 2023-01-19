@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import useCountries from '../hooks/useCountries.js';
-import CountryCard from './CountryCard.js';
+import useCountries from '../../hooks/useCountries.js';
+import CountryCard from '../CountryCard.js';
+import './Main.css';
 
 export default function Main() {
   const { countries, error } = useCountries();
@@ -13,9 +14,9 @@ export default function Main() {
   );
 
   return (
-    <main>
-      <h1>Flags of the World</h1>
-      <select onChange={(e) => setContinent(e.target.value)}>
+    <main className="container">
+      <h1 className="title">Flags of the World</h1>
+      <select className="drop-down" onChange={(e) => setContinent(e.target.value)}>
         <option value="all">All</option>
         {continents.map((continent) => (
           <option key={continent} value={continent}>
